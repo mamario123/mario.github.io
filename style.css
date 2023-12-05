@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    color: #ffffff;
+    
+}
+
+body {
+    background-color: #080202;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.swiper{
+    width: 900px; height: 650px;
+}
+
+.navbar {
+    display: flex;
+}
+.menu-1{        
+    margin-left: 550px;
+    width: 1100px;
+}
+.socials{
+    display: flex;
+    margin-top: 15px;
+}
+.social img{    
+    margin: 8px 0 0 10px;
+}
+.social:hover{
+    zoom: 120%;    
+}
+.menu .navbar ul li{
+    position: relative;
+    float: left;
+}
+.menu .navbar ul li a {
+    font-size: 18px;
+    padding: 20px;
+    color: #ffffff;
+    display: block;
+}
+.menu .navbar ul li a:hover{
+    color: #D0241B
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    
+}
+
+.btn-1{
+    margin-left: 10px;
+    padding: 5px;
+    background-color: #D0241B;
+    border-radius: 50px;
+    font-size: 25px;
+    border: solid 2px #fff;
+}
+
+.btn-2{
+    
+    padding: 5px;
+    background-color: #D0241B;
+    border-radius: 50px;
+    font-size: 15px;
+    border: solid 2px #fff;
+    margin-left: 160px;
+}
+
+.btn-1:hover{
+    color: #ff0000;
+    background-color: #fff;    
+    border: solid 2px #ff0000;
+}
+
+.btn-2:hover{
+    color: #ff0000;
+    background-color: #fff;    
+    border: solid 2px #ff0000;
+}
+
+.subtitulo1{
+    margin-left:40px ;
+    text-align: start;
+    color: #000;
+    font-size: 30px;
+}
+
+.comidaEnMalla{
+    width: 160px;
+    height: 120px;
+}
+
+.fila {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+  }
+  
+  .columna {
+    flex: 33.33%;
+    padding: 5px;
+}
+
+h2{
+    text-align: center;
+    margin-bottom: 9px;
+}
+
+.info{
+    
+    margin: 0 auto;
+    text-align: left;
+    width: 900px;
+    height: auto;
+}
+
+iframe{
+    width: 100%;
+}
+
+.swiper{
+    width: 900px; height: 650px;
+}
+
+.swiper h4{
+    color: red;
+    font-size: 30px;
+}
+
+.swiper p{
+    font-size: 20px;
+}
